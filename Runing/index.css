@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(29 119 221 / 78%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:0%;
+}
+::-webkit-scrollbar {display: none;}
+/*Header*/
+header{
+    background-color: azure;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.volver{
+    width: 45%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.volver_img{
+    width: 20%;
+}
+.logo_ssneaker{
+    width: 10%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.logo_ssneaker_img{
+    width: 40%;
+}
+.perfiles{
+    width: 45%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: end;
+}
+.perfiles_img{
+    width: 20%;
+}
+/*Seccion*/
+.referencias{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.referencia1{
+    width: 23%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.referencia2{
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.referencia3{
+    width: 23%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+h1{
+    font-size: large;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.slider{
+    background-image: url(https://media.giphy.com/media/Z0qrajAVaSJcK87b9X/giphy.gif);
+    width: 100%;
+    height: 200px;
+    background-size: 10%;
+}
+.novedades{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.novedad{
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.buscar{
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(17, 18, 18);
+    color: aliceblue;
+}
+.logoimg{
+    border-radius: 100%;
+}
+.logoimg:hover{
+    cursor: pointer;
+    -webkit-transform: rotate(360deg);
+    transition: 1S ease-in-out;
+}
+img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(29 119 221 / 78%);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_numero_contacto{
+    width: 33%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.baul_redes_sociales{
+    width: 33%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.baul_agradecimientos{
+    width: 33%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.despacho{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    color: rgb(246, 248, 249);
+    font-size: 20px;
+}
+.agradecimientos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    color: aliceblue;
+    font-size: 20px;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    color: aliceblue;
+}
+.pildora_red{
+    width: 30%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.wspp{
+    width: 30px;
+    border-radius: 30px;
+}
+.face{
+    width: 30px;
+    border-radius: 30px;
+}
+.ints{
+    width: 30px;
+    border-radius: 30px;
+}
+.wspp:hover{
+    -webkit-transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
+.face:hover{
+    -webkit-transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
+.ints:hover{
+    -webkit-transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
